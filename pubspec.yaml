@@ -1,0 +1,28 @@
+name: proyecto_vr_3d
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+# CAMBIAMOS ESTA SECCIÓN: Le permitimos usar tu Dart 3.11.1
+environment:
+  sdk: '>=3.11.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Esta versión es perfectamente compatible con tu entorno actual
+  model_viewer_plus: ^1.4.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+# Se unificó toda la configuración de Flutter en un solo bloque limpio
+flutter:
+  uses-material-design: true
+
+  # Registro correcto de tu objeto 3D
+  assets:
+    - assets/objeto.glb
