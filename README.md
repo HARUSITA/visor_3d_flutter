@@ -4,7 +4,7 @@ Una aplicación móvil nativa desarrollada en **Flutter** que implementa un viso
 
 ---
 
-## 🛠️ Características Técnicas
+##  Características Técnicas
 
 * **Renderizado Acelerado por Hardware:** Integración del motor gráfico a través de WebGL para procesar texturas, mallas y sombras directamente en la GPU del dispositivo.
 * **Interactividad Completa (Gestos Táctiles):** Soporte para órbitas de cámara ($360^\circ$), traslación en el plano (*panning*) y control de zoom mediante la distancia focal virtual.
